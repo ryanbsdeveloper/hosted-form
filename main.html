@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <link rel="shortcut icon" href="img\raio.png">
+
+    <title>GOD guild - Formulário</title>
+
+</head>
+
+<body>
+
+  
+  <header>
+    <div id="logo_ff">
+      <img class="efeito_logo" src="img\logo-freefire.png" height="100">
+    </div>
+
+    <div id="logo">
+      <img class="efeito_logo_ff" src="img\logo.png" height="120px">
+    </div>
+
+    <div id="insta">
+      <a href="https://www.instagram.com/god.unidas"> <img class="efeito_insta" src="img\insta.png" onmouseover="this.src='img\\insta_verso.png'" onmouseout="this.src='img\\insta.png'"> </a>
+    </div>
+
+    <div id="face">
+      <a href=""> <img class="efeito_face" src="img\face.png" onmouseover="this.src='img\\face_verso.png'" onmouseout="this.src='img\\face.png'"> </a>
+    </div>
+
+    <div id="twitter">
+       <a href=""> <img class="efeito_twitter" src="img\twitter.png" onmouseover="this.src='img\\twitter_verso.png'" onmouseout="this.src='img\\twitter.png'"> </a>
+    </div>
+    
+    
+  </header>
+
+
+  <div id="principal">
+
+    <form method="get" action="bancodedados.bd" class="formulario">
+      <h1>PREENCHA O FORMULÁRIO</h1>
+      <h4>INFORMAÇÕES PESSOAIS</h4>
+
+      <label>NOME: </label>
+      <input type="text" name="nome" placeholder="Digite seu nome"><br>
+
+      <div class="space">
+        <label>DATA DE NASCIMENTO: </label>
+        <input type="date" name="data_de_nascimento">
+      </div>
+
+      <div class="space">
+        <label>SEXO: </label>
+        <input type="radio" name="sexo" value="M" ><img src="img\homem.png" height="50px" width="50px">
+        <input type="radio" name="sexo" value="F" ><img src="img\mulher.png" height="50px" width="50px">
+      </div>
+      <br>
+
+      <h4>INFORMAÇÕES DE CONTATO</h4>
+
+      <label>EMAIL: </label>
+      <input type="email" name="email_de_contado" placeholder="nome@exemplo.com.br">
+
+      <label>TELEFONE: </label>
+      <input type="tel" name="telefone_contato" placeholder="11 91234-5678"><br><br>
+
+      <h4>INFORMAÇÕES DO JOGO</h4>
+
+      <label>ID DO JOGADOR:</label>
+      <input type="numbers" name="id_jogador"><br>
+      
+      <div class="space">
+        <h5>PATENTE ALCANÇADA (ATUAL TEMPORADA)</h5>
+
+        <div id="dima1">
+          <input type="radio" name="patente" value="Diamante_1"><img src="img\diamante1.jpg"  height="50px" width="50px">
+        </div>
+
+        <div id="dima2">
+          <input type="radio" name="patente" value="Diamante_2"><img src="img\diamante2.jpg"  height="50px" width="50px">
+        </div>
+
+        <div id="dima3">
+          <input type="radio" name="patente" value="Diamante_3"><img src="img\diamante3.jpg"  height="50px" width="50px">
+        </div>
+
+        <div id="dima4">
+          <input type="radio" name="patente" value="Diamante_4"><img src="img\diamante4.jpg"  height="50px" width="50px">
+        </div>
+
+        <div id="mestre">
+          <input type="radio" name="patente" value="Mestre"><img src="img\mestre.jpg" height="50px" width="50px">
+        </div>
+
+        <div id="desa">
+          <input type="radio" name="patente" value="Desafiante"><img src="img\desafiante.jpg" height="50px" width="50px">
+        </div>
+
+      </div>
+
+      <br><br>
+      <input type="submit" name="acao" value="Enviar">
+    </form>
+  </div>
+
+    
+
+  <footer><strong>Copyright 2021 &#169; by </strong><a href="https://www.instagram.com/ry4nzk/">Ryan Silva</a></footer>
+
+  
+
+</body>
+
+</html>

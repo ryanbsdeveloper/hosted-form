@@ -1,0 +1,179 @@
+body{
+       background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1029581270239693095/1B1B9D2096EAFF4822D277990C4FCC98D218E306/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+       background-size: cover;
+       background-repeat: no-repeat;
+}
+
+h1{
+     color: #D3D3D3;
+     font-family: fantasy;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: #000;  
+}
+
+h4{
+     color: whitesmoke;
+     -webkit-text-stroke-width: 1.0px;
+     -webkit-text-stroke-color: yellow;
+}
+
+h5{
+     font-family: fantasy;
+     font-size: 15px;
+     color: #D3D3D3 ;
+     -webkit-text-stroke-width: 0.5px;
+     -webkit-text-stroke-color: black;
+}
+
+
+
+input[type="submit"]{
+    color: green;
+    font-family: fantasy;
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover{
+     background-color: green;
+     color:#ccc ;
+     transition: 0.3s;
+}
+
+footer{
+     clear: both;
+     color: black;
+     height: 30px;
+     text-align: center;
+     padding: 20px;
+     font-family: serif;
+}
+
+label{
+     font-family: Impact, fantasy;
+     color: #D3D3D3 ;
+     padding: 10px;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+}
+
+input{
+     border-radius: 15px;
+     border: 1px solid #ccc;
+     outline: none;
+     text-align: center;
+     cursor: pointer;
+}
+
+a{
+     font-family: fantasy;
+     text-decoration: none;
+     color: #696969;
+     text-shadow: 1px 1px 1px #111;
+}
+
+a:hover{
+     color: #1E90FF ;
+     transition: 0.5s;
+}
+
+/*IDs e CLASSEs*/
+
+/*IDs*/
+#principal{
+     clear: both;
+     height: 700px;
+     text-align: center;
+     background-image: url(img\\fffundo.jpg);
+     background-size: cover;
+}
+
+#logo{
+     float: left;
+     padding: 0px 0px 0px 325px;
+}
+
+#logo_ff{
+     float: left;
+     padding: 0px 0px 0px 50px;
+}
+
+#face{
+     padding: 30px 0px 0px 0px;
+     float: right;
+}
+
+#insta img, #face img, #twitter img{
+     width: 50px;
+     height: 50px;
+}
+#insta{
+     padding: 30px 100px 0px 10px ;
+     float: right;
+}
+
+#dima1:hover, #dima2:hover, #dima3:hover, #dima4:hover, #mestre:hover, #desa:hover{
+     transition: 0.5s;
+     -webkit-transform: scale(1.5);
+     transform: scale(1.5);
+}
+
+#twitter{
+     padding: 30px 10px 0px 0px ;
+     float: right;
+
+}
+
+#dima1, #dima2, #dima3, #dima4, #mestre, #desa{
+     display: inline-flex;
+}
+
+/*CLASSEs*/
+.efeito_insta:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+.efeito_insta {
+     transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito_face{
+     transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito_face:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.efeito_twitter{
+      transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito_twitter:hover{
+     -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.efeito_logo{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.9));
+}
+
+.space{
+     padding: 15px 0px 0px 0px;
+     align-items: center;
+}
