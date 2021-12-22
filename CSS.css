@@ -1,14 +1,17 @@
 body{
-       background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1029581270239693095/1B1B9D2096EAFF4822D277990C4FCC98D218E306/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-       background-size: cover;
-       background-repeat: no-repeat;
+     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1029581270239693095/1B1B9D2096EAFF4822D277990C4FCC98D218E306/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+     background-size: cover;
+     background-repeat: no-repeat;
+     zoom: 1.5;
 }
 
 h1{
      color: #D3D3D3;
      font-family: fantasy;
      -webkit-text-stroke-width: 1px;
-     -webkit-text-stroke-color: #000;  
+     -webkit-text-stroke-color: #000;
+     margin: 0px;
+
 }
 
 h4{
@@ -85,6 +88,7 @@ a:hover{
      transition: 0.5s;
 }
 
+
 /*IDs e CLASSEs*/
 
 /*IDs*/
@@ -96,18 +100,32 @@ a:hover{
      background-size: cover;
 }
 
+#redes-sociais{
+     float: right;
+     padding: 30px;
+}
+
+#inicio{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+
 #logo{
      float: left;
-     padding: 0px 0px 0px 325px;
+     padding: 30px;
 }
 
 #logo_ff{
      float: left;
-     padding: 0px 0px 0px 50px;
+     text-align: left;
+     padding: 30px;
 }
 
 #face{
-     padding: 30px 0px 0px 0px;
+     padding: 10px;
      float: right;
 }
 
@@ -116,7 +134,7 @@ a:hover{
      height: 50px;
 }
 #insta{
-     padding: 30px 100px 0px 10px ;
+     padding: 10px;
      float: right;
 }
 
@@ -127,7 +145,7 @@ a:hover{
 }
 
 #twitter{
-     padding: 30px 10px 0px 0px ;
+     padding: 10px;
      float: right;
 
 }
@@ -171,6 +189,7 @@ a:hover{
 .efeito_logo{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.9));
+
 }
 
 .space{
